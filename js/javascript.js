@@ -1,0 +1,1 @@
+var teste = $('#button').click(()=>{console.log('teste')})
