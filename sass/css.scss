@@ -22,10 +22,15 @@
         a{
             padding: 10px;
         }
+       
     }
         img{
             height: 5vh;
-           
+            transition: 0.5s;
+        }
+
+        img:hover{
+            height: 6vh;
         }
 }
 

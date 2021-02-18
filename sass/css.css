@@ -41,6 +41,12 @@
 
 #nav-bar img {
   height: 5vh;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#nav-bar img:hover {
+  height: 6vh;
 }
 
 header {
