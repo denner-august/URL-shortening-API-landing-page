@@ -46,26 +46,26 @@ header{
 
 main{
     width: 100vw;
-    height: 30vh;
+    height: auto;
     background-color: #307D94;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    padding: 0px 10vw;
+    flex-direction: column;
+    padding: 30px 10vw;
+    justify-content: center;
    
    #main-container{
        display: flex;
        justify-content: center;
        flex-wrap: wrap;
-      
-
+       padding: 15px 0px;
        input{
+           text-align: center;
            width: 80%;
            height: 10vh;
            border-radius: 5px;
            border: none;
-           margin: 10px 10px;
-           
+           margin: 5px 5px;
        }
 
        input:hover{
@@ -73,9 +73,25 @@ main{
        }
       button:hover{
           background-color: red;
-          
       }
       
+   }
+
+   #response{
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       padding: 15px 0px;
+      
+      
+       input{
+        text-align: center;
+        width: 80%;
+        height: 10vh;
+        border-radius: 5px;
+        border: none;
+        margin: 5px 5px;
+       }
    }
    
 }
