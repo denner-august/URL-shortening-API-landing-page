@@ -95,3 +95,15 @@ main{
    }
    
 }
+
+footer{
+    background-color: #F8F9FA;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: black;
+      text-decoration: none;
+    }
+}
